@@ -373,3 +373,11 @@ html.menu-open .page-main, html.menu-open .site-footer { visibility: hidden; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
 }
+
+/* ============================================================
+   Reel page
+   ============================================================ */
+.page-reel .page-main { padding: 110px var(--pad) 120px; max-width: 1100px; margin-inline: auto; }
+.reel__video { width: 100%; aspect-ratio: 16 / 9; background: #0A0A0A; }
+.reel__text { display: grid; gap: var(--g1); margin-top: var(--g3); max-width: 640px; font-size: var(--t-medium); line-height: var(--lh-medium); }
+.reel__links { display: flex; flex-wrap: wrap; gap: var(--g2); margin-top: var(--g1); font-size: var(--t-small); }
